@@ -1,0 +1,125 @@
+/* MinimalTrackView.css */
+.minimal-track-view {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .track-header {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .back-button {
+    margin-bottom: 15px;
+    background-color: #95a5a6;
+  }
+  
+  .back-button:hover {
+    background-color: #7f8c8d;
+  }
+  
+  .track-header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    color: #2c3e50;
+  }
+  
+  .track-header h2 {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    font-weight: normal;
+  }
+  
+  .chord-timeline {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .timeline-header {
+    display: flex;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .time-label {
+    flex: 0 0 150px;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .chord-label {
+    flex: 1;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .chord-sequence {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .chord-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .chord-item:last-child {
+    border-bottom: none;
+  }
+  
+  .chord-item .time {
+    flex: 0 0 80px;
+    font-family: monospace;
+    color: #7f8c8d;
+  }
+  
+  .chord-item .chord {
+    flex: 0 0 100px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.1rem;
+    color: #2c3e50;
+  }
+  
+  .chord-item .duration {
+    flex: 1;
+    color: #95a5a6;
+    font-family: monospace;
+    font-size: 0.9rem;
+  }
+  
+  .track-footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #95a5a6;
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+  
+  .minimal-loading,
+  .minimal-error {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .minimal-loading {
+    color: #7f8c8d;
+  }
+  
+  .minimal-error h2 {
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+  
+  .minimal-error p {
+    margin-bottom: 20px;
+    color: #7f8c8d;
+  }

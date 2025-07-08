@@ -1,0 +1,114 @@
+/* MinimalHomepage.css */
+.minimal-homepage {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .search-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: #2c3e50;
+  }
+  
+  .subtitle {
+    color: #7f8c8d;
+    margin-bottom: 30px;
+    font-size: 1rem;
+  }
+  
+  .search-box {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .search-box input {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-box button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .search-box button:hover {
+    background-color: #2980b9;
+  }
+  
+  .loading {
+    margin: 20px 0;
+    font-style: italic;
+    color: #7f8c8d;
+  }
+  
+  .error {
+    margin: 20px 0;
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  .search-results {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .search-results h2 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+  }
+  
+  .result-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .result-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .track-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #2c3e50;
+  }
+  
+  .artist-name {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }
+  
+  .view-button {
+    width: fit-content;
+    margin-top: 10px;
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+  
+  .no-results {
+    margin: 30px 0;
+    color: #7f8c8d;
+    font-style: italic;
+  }
